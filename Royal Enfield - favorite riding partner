@@ -1,0 +1,115 @@
+{
+  "task": "generate_video",
+  "language": "English",
+  "duration": "45-60 seconds",
+  "format": "16:9",
+  "video_style": "cinematic, immersive, emotional travel ride",
+  "scenario": {
+    "theme": "royal enfield riding experience",
+    "vehicle": {
+      "type": "motorcycle",
+      "model": "Royal Enfield Old Standard Bullet",
+      "sound": "classic dubu dubu exhaust beat"
+    },
+    "rider": {
+      "role": "solo biker",
+      "appearance": {
+        "helmet": "classic open-face helmet",
+        "riding_style": "relaxed, confident"
+      },
+      "emotion": "freedom, peace, connection with the road"
+    }
+  },
+  "locations": [
+    {
+      "scene": "hill roads",
+      "visuals": "winding mountain roads with mist, greenery, and curves"
+    },
+    {
+      "scene": "river side roads",
+      "visuals": "bike riding alongside flowing river with reflections and breeze"
+    },
+    {
+      "scene": "long highways",
+      "visuals": "endless open roads stretching into the horizon"
+    },
+    {
+      "scene": "village roads",
+      "visuals": "tree-lined roads, village houses, calm rural life on both sides"
+    }
+  ],
+  "environment": {
+    "climate": "pleasant and cool",
+    "lighting": "natural daylight with soft sunlight",
+    "atmosphere": "calm, refreshing, soulful"
+  },
+  "audio": {
+    "engine_sound": "prominent royal enfield dubu dubu sound",
+    "background_music": "soft cinematic instrumental with travel vibe",
+    "narration": {
+      "language": "English",
+      "voice_style": "deep, calm, emotional",
+      "tone": "reflective and passionate"
+    }
+  },
+  "narration_content": {
+    "theme": "rider's feelings and vibe",
+    "example_lines": [
+      "This ride… is not just a journey.It’s the moment when I talk to my own soul."
+	  
+	  "Dubu… dubu… dubu…
+	  That sound makes the whole world fall silent."
+	  
+	  "While climbing the hill roads,the wind kisses my face. Every curve feels like a turn in life itself."
+	  
+	  "The river flowing beside me,
+	  washes away all my thoughts with its sound.
+	  Here, speed doesn’t matter…
+	  only the feeling does"
+	  
+	  "On the long highways,
+	  the road feels endless.
+	  At that moment, it’s just me…
+	  just my Bullet…
+	  everything else fades behind."
+	  
+	  "Riding through village roads,
+	  trees on both sides bow as if greeting me.
+	  The smell of the earth, the greenery, the calm…
+	  this is what real luxury feels like."
+	  
+	  "This Royal Enfield,
+	  is not just a bike.
+	  It’s my companion…
+	  my freedom…
+	  my identity."
+	  
+	  "Even when the ride ends,
+	  this feeling…
+	  keeps riding inside my heart forever."
+  },
+  "camera": {
+    "shots": [
+      "side tracking shot of bike riding",
+      "wide aerial shot of highways",
+      "close-up of exhaust and engine vibration",
+      "POV riding view on village roads"
+    ],
+    "movement": "smooth cinematic motion",
+    "speed": "moderate"
+  },
+  "tone": {
+    "emotion": "freedom, nostalgia, adventure",
+    "pace": "smooth and flowing"
+  },
+  "constraints": {
+    "no_watermark": true,
+    "no_brand_overlay_text": true,
+    "high_audio_quality": true
+  },
+  "output": {
+    "format": "mp4",
+    "resolution": "1080p",
+    "aspect_ratio": "16:9"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Gen-AI Code Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 Local Gen-AI Code Assistant</h1>
+
+    <textarea id="userInput" placeholder="Ask for Python code, debugging help, explanations..."></textarea>
+
+    <button onclick="sendMessage()">Generate</button>
+
+    <pre id="response"></pre>
+</div>
+
+<script>
+async function sendMessage() {
+    const input = document.getElementById("userInput").value;
+    const responseBox = document.getElementById("response");
+
+    responseBox.textContent = "Generating...";
+
+    const res = await fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message: input})
+    });
+
+    const data = await res.json();
+    responseBox.textContent = data.response;
+}
+</script>
+
+</body>
+</html>
